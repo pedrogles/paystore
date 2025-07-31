@@ -78,10 +78,10 @@ http://localhost:8080
 
 ## 🔧 Endpoints Principais
 
-- `POST /centers` - Cadastrar centro comunitário
-- `GET /centers` - Listar todos os centros
-- `POST /trade` - Realizar troca de recursos
-- `GET /trade-history` - Ver histórico de trocas
+- `POST /community-centers` - Cadastrar centro comunitário
+- `GET /community-centers` - Listar todos os centros
+- `POST /trade-history/exchange` - Realizar troca de recursos
+- `GET /trade-history/all` - Ver histórico de trocas
 
 A documentação da API pode ser consultada via Swagger em: 
 ```
