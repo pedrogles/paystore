@@ -73,7 +73,7 @@ http://localhost:8080
 
 A documentação da API pode ser consultada via Swagger em: 
 ```
-http://localhost:8080](http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui.html
 ```
 
 ## 📁 Estrutura do Projeto
