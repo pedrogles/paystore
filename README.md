@@ -1,19 +1,15 @@
-# Paystore 🏥
+# Paystore 
 
-Sistema de gerenciamento de centros comunitários com controle de recursos e trocas entre centros.
-
-## 📚 Descrição
-
-O **Paystore** é uma API RESTFul desenvolvida com **Spring Boot** e **MongoDB** que permite:
+> Sistema de gerenciamento de centros comunitários com controle de recursos e trocas entre centros.
 
 ## 📦 Funcionalidades
 
 ### ✅ Centros Comunitários
 - Cadastrar e listar centros comunitários
-- Gerenciar recursos (como médicos, alimentos, remédios etc.) de cada centro
+- Gerenciar recursos (como médicos, Voluntário, Kit de suprimentos médicos etc.) de cada centro
 - Gerenciar percentual de ocupação de cada centro.
 - Verifica a quantidade média de cada tipo de recurso cadastrado no sistema
-- Notificar (via event logs) quando ocupação ultrapassa 90%.
+- Notificar (via event logs) quando percentual ocupação do centro ultrapassa 90%.
 
 ### 🔁 Troca de Recursos
 - Troca permitida apenas se os **pontos dos recursos** forem equivalentes.
@@ -25,19 +21,11 @@ O **Paystore** é uma API RESTFul desenvolvida com **Spring Boot** e **MongoDB**
 
 | Recurso                    | Pontuação |
 |----------------------------|-----------|
-| Médico                     | 4         |
-| Voluntário                 | 3         |
-| Kit de suprimentos médicos | 7         |
-| Veículo de transporte      | 5         |
-| Cesta básica               | 2         |
-
-### 📊 Relatórios
-
-- Centros com **ocupação > 90%**.
-- Quantidade média de cada recurso por centro.
-- Histórico de negociações com filtros:
-  - Por centro específico (obrigatório)
-  - Por período de tempo (opcional)
+| Médico                     |     4     |
+| Voluntário                 |     3     |
+| Kit de suprimentos médicos |     7     |
+| Veículo de transporte      |     5     |
+| Cesta básica               |     2     |
 
 ---
 
